@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && microbundle -f cjs,modern",
